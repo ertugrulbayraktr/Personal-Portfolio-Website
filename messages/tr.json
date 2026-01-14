@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "work": "İş",
+    "writing": "Yazılar",
+    "about": "Hakkımda"
+  },
+  "home": {
+    "hero": {
+      "title": "Güvenilir backend sistemler geliştiriyorum.",
+      "subtitle": "Güvenilirlik ve ölçeklenebilirlik odaklı .NET backend sistemleri ve yapay zeka entegrasyonlu ürünler geliştiriyorum. Deneyimim backend servisleri ve API'leri tasarlamayı, mimari kararlar almayı ve production ortamlarında uzun vadeli kullanım için tasarlanmış sistemler geliştirmeyi içeriyor.\n\nDaha önce SunExpress Havayolları'nda (Lufthansa ve Türk Hava Yolları ortak girişimi) Business Airline Solutions ekibinde Yazılım Mühendisliği Stajyeri olarak kurumsal ölçekli dahili uygulamalara katkıda bulundum.",
+      "cta_primary": "İşleri Gör",
+      "cta_secondary": "Yazıları Oku"
+    },
+    "beyond_engineering": {
+      "title": "Mühendisliğin Ötesinde",
+      "subtitle": "Mühendislik temel disiplinim olsa da, sistem kurma yaklaşımım kod dışındaki deneyimler tarafından şekillendirildi.",
+      "markets": {
+        "title": "Finansal Piyasalar ve Trading",
+        "description": "Finansal piyasalara olan ilgim risk, belirsizlik ve karar verme konusundaki düşünce yapımı şekillendirdi. Olasılıksal modeller ve gerçek zamanlı piyasa dinamikleriyle çalışmak disiplin, kontrollü risk ve eksik bilgiyle karar verme önemini pekiştirdi.",
+        "impact": "Bu kavramlar doğal olarak sistem tasarımı ve mühendislik değiş-tokuşlarına dönüşüyor."
+      },
+      "entrepreneurship": {
+        "title": "Girişimcilik",
+        "description": "Kendi girişimimi kurma ve yürütme sürecinde sahiplenme, uygulama ve uçtan uca sorumluluk konusunda ilk elden deneyim kazandım. Problemleri tanımlamaktan çalışan çözümler sunmaya kadar bu deneyim önceliklendirme, adaptasyon ve hesap verebilirlik yeteneklerimi güçlendirdi.",
+        "impact": "Yazılım projelerine nasıl yaklaştığımı doğrudan etkileyen beceriler."
+      },
+      "athlete": {
+        "title": "Sporcu",
+        "description": "Rekabetçi spor geçmişim disiplin, tutarlılık ve uzun vadeli odaklanma aşıladı. Baskı altında antrenman yapmak ve sürekli gelişime bağlı kalmak dayanıklılık ve uygulama etrafında alışkanlıklar geliştirdi.",
+        "impact": "Özellikle zorlu ve yüksek sorumluluk gerektiren ortamlarda mühendislik çalışmalarına taşınan özellikler."
+      }
+    },
+    "featured_work": {
+      "title": "Öne Çıkan Projeler",
+      "read_case": "Detayları gör",
+      "view_all": "Tüm projeleri gör"
+    },
+    "latest_writing": {
+      "title": "Son Yazılar",
+      "view_all": "Tüm yazıları gör"
+    },
+    "cta_section": {
+      "title": "Backend mühendisliği ve yapay zeka entegrasyonlu sistemler alanında fırsatlar arıyorum.",
+      "button": "Tüm Deneyimi Gör"
+    }
+  },
+  "work": {
+    "title": "İş",
+    "philosophy_title": "Nasıl Çalışırım",
+    "philosophy": {
+      "ownership": {
+        "title": "Sahiplenme",
+        "description": "Kurduğum sistemlerin tüm yaşam döngüsünden sorumluluk alırım"
+      },
+      "reliability": {
+        "title": "Güvenilirlik",
+        "description": "Sürdürülebilir ve ölçeklenebilir sistemler kurmaya odaklanırım"
+      },
+      "decision": {
+        "title": "Belirsizlik Altında Karar",
+        "description": "Trading geçmişim hesaplı teknik kararlar almamı sağlıyor"
+      }
+    },
+    "experience_title": "Deneyim",
+    "projects_title": "Projeler",
+    "view_details": "Detayları Gör",
+    "tech_stack_title": "Teknik Yetenekler",
+    "career_direction_title": "Kariyer Hedefleri",
+    "career_direction_text": "Kariyerimde ilerlerken birincil hedefim backend mühendisliği alanındaki uzmanlığımı derinleştirmek. .NET, cloud-native mimariler, dağıtık sistemler ve modern DevOps pratikleri kullanarak ölçeklenebilir, yüksek performanslı sistemler geliştirmeye devam etmeyi amaçlıyorum. Güvenilir API'ler ve sağlam sistem altyapıları tasarlamada oldukça yetkin olmak bu yolun önemli bir parçası.\n\nAynı zamanda yapay zeka ve makine öğrenmesi alanındaki bilgimi aktif olarak genişletiyorum. Orta vadeli hedefim, AI-odaklı yaklaşımları backend geliştirmeye entegre etmek — daha akıllı, veri zenginleştirilmiş sistemler oluşturmak ve otomasyondan, tahmin yeteneğinden ve akıllı karar vermeden faydalanan ürünlere katkıda bulunmak.\n\nUzun vadede, teknolojinin yüksek etkili mühendislikle buluştuğu sektörlerde uzmanlaşmayı hedefliyorum: havacılık, uzay ve savunma. Bu alanlar hassasiyet, güvenilirlik ve yenilikçilik gerektirir — kişisel motivasyonlarım ve teknik ilgi alanlarımla yakından örtüşen değerler. Vizyonum, bu sektörlerde görev kritik sistemlere ve gelişmiş teknolojik çözümlere katkıda bulunmak; backend mühendisliği, AI yetenekleri ve güçlü bir sürekli gelişim arzusunu birleştirmek.",
+    "filter_all": "Tümü",
+    "filter_backend": "Backend",
+    "filter_fullstack": "Full-stack",
+    "filter_ai": "AI / Veri",
+    "filter_tools": "Araçlar"
+  },
+  "writing": {
+    "title": "Yazılar",
+    "subtitle": "Mühendislik, piyasalar ve sistem düşüncesi üzerine düşünceler",
+    "categories": {
+      "all": "Tümü",
+      "engineering": "Mühendislik",
+      "markets": "Piyasalar",
+      "systems": "Sistemler",
+      "career": "Kariyer"
+    },
+    "read_more": "Devamını oku",
+    "min_read": "dk okuma"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "narrative": "Spora olan güçlü tutkumla büyüdüm ve disiplin her zaman hayatımın belirleyici bir parçası oldu. Lisanslı bir kickboksçu olarak ve birden fazla atletik alanda deneyimle, tutarlılık, odaklanma ve dayanıklılığın değerini erken yaşta öğrendim — hem kişisel gelişimimi hem de mühendislik yaklaşımımı şekillendiren özellikler.\n\nTeknolojiye olan ilgim küçük yaşta başladı ve üniversite sırasında yazılım geliştirmeye derinlemesine dahil olduğumda doğal olarak daha derin bir bağlılığa dönüştü. Merak olarak başlayan şey hızla uzun vadeli bir arayışa dönüştü ve beni backend mühendisliği ve modern web teknolojilerine yönlendirdi. Zamanla .NET ekosistemine, ölçeklenebilir backend tasarımına ve temiz, sürdürülebilir kod prensiplerine yöneldim. ASP.NET Core, React, SQL Server, Redis ve RabbitMQ gibi teknolojilerle çalışmak, problem çözme ve sistem güvenilirliği etrafında güçlü bir mühendislik temeli oluşturmama yardımcı oldu.\n\nYazılım geliştirmenin yanı sıra, üniversite sırasında kurduğum bir e-ticaret işletmesi olan LLux'u kurarak girişimcilik yolculuğuma ilk adımımı attım. Ürün geliştirme, operasyonlar ve müşteri iş akışlarını yönetmek bana küçük gerçek dünya sistemleri kurma konusunda uygulamalı deneyim kazandırdı — ve sahiplenme, uyum sağlama ve sonuç vermenin pratik değerini öğretti.\n\nAyrıca finansal piyasalara uzun süredir devam eden kişisel bir ilgim var. Altı yılı aşkın süredir bireysel yatırımcı olarak trading ve uzun vadeli yatırım yapıyorum. Bu deneyim piyasa davranışı, risk ve strateji anlayışımı derinleştirdi ve karmaşık problemleri nasıl analiz ettiğime ve karar verdiğime başka bir boyut kattı.\n\nEn son profesyonel adımım, kurumsal düzeyde dahili uygulamalara katkıda bulunduğum SunExpress Havayolları'nın Business Airline Solutions ekibine katılmak oldu. Gerçek bir kurumsal mühendislik ortamında çalışmak, ölçeklenebilir mimari, Agile uygulamaları, CI/CD pipeline'ları ve büyük ölçekli sistemlerde ekip çalışması anlayışımı güçlendirdi.\n\nBugün, .NET ile backend mühendisliğine, bulut tabanlı geliştirmeye ve sistem tasarımına odaklanmaya devam ediyorum — aynı zamanda yapay zeka ve makine öğrenmesi alanındaki bilgimi genişletiyorum. Amacım, bu alanları kariyerim boyunca anlamlı, yüksek etkili teknolojik çalışmalarda birleştirmek.",
+    "education_title": "Eğitim",
+    "certifications_title": "Sertifikalar ve Başarılar",
+    "contact_title": "İletişim",
+    "contact_subtitle": "Fırsatlar, işbirliği veya konuşmalar için",
+    "download_cv": "CV İndir"
+  },
+  "footer": {
+    "location": "İstanbul, Türkiye",
+    "rights": "Tüm hakları saklıdır"
+  }
+}
