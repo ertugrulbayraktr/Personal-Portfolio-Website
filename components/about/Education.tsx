@@ -5,17 +5,24 @@ import { useTranslations } from 'next-intl';
 export default function Education() {
   const t = useTranslations('about');
 
-  // Placeholder education data
+  // Education data
   const education = [
     {
-      degree: 'Bachelor of Science in Software Engineering',
-      school: 'Bahçeşehir University',
-      period: '2018 - 2022',
-      details: [
-        'Focus on backend systems and distributed architectures',
-        'Active member of Financial Research Office',
-        'Founded and led student startup initiative',
+      degree: 'Bachelor of Science (B.S.) in Software Engineering',
+      school: 'Bahçeşehir University, Istanbul',
+      period: 'September 2021 – November 2025',
+      badge: 'English Curriculum | Scholarship',
+      coursework: [
+        'Advanced Algorithms & Data Structures',
+        'Distributed Systems & Cloud Computing',
+        'Database Management Systems',
+        'Software Architecture & Design Patterns',
       ],
+    },
+    {
+      degree: 'English Preparatory Program',
+      school: 'Bahçeşehir University, Istanbul',
+      period: 'September 2020 – January 2021',
     },
   ];
 
@@ -27,27 +34,39 @@ export default function Education() {
 
       <div className="space-y-8 max-w-3xl">
         {education.map((edu, idx) => (
-          <div key={idx} className="border-l-2 border-accent-gold pl-6">
+          <div key={idx} className="border-l-2 border-accent-gold pl-6 pb-4">
             <h3 className="text-xl font-semibold text-text-primary mb-1">
               {edu.degree}
             </h3>
             <div className="text-accent-gold font-medium mb-1">
               {edu.school}
             </div>
-            <div className="text-sm text-text-secondary mb-4">
+            <div className="text-sm text-text-secondary mb-2">
               {edu.period}
             </div>
-            <ul className="space-y-2">
-              {edu.details.map((detail, i) => (
-                <li
-                  key={i}
-                  className="text-text-secondary flex items-start text-sm"
-                >
-                  <span className="text-accent-gold mr-2">•</span>
-                  <span>{detail}</span>
-                </li>
-              ))}
-            </ul>
+            {edu.badge && (
+              <div className="text-sm text-text-primary mb-4 font-medium">
+                {edu.badge}
+              </div>
+            )}
+            {edu.coursework && (
+              <div className="mt-4">
+                <div className="text-sm font-medium text-text-primary mb-2">
+                  Key Coursework:
+                </div>
+                <ul className="space-y-1">
+                  {edu.coursework.map((course, i) => (
+                    <li
+                      key={i}
+                      className="text-text-secondary flex items-start text-sm"
+                    >
+                      <span className="text-accent-gold mr-2">▸</span>
+                      <span>{course}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         ))}
       </div>

@@ -7,7 +7,7 @@ export default function Hero() {
   const t = useTranslations('home.hero');
 
   return (
-    <section className="max-w-content mx-auto px-6 pt-20 pb-32">
+    <section className="max-w-content mx-auto px-6 pt-16 pb-32">
       <div className="max-w-4xl">
         {/* Title */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold leading-tight mb-6 text-text-primary">
