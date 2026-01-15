@@ -50,11 +50,11 @@ export default function Footer() {
       <div className="max-w-content mx-auto px-6 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-text-secondary">
-            © {currentYear} Ertuğrul Bayraktar — {t('location')}
+            © {currentYear} Ertuğrul Bayraktar
           </div>
           
           <div className="flex items-center gap-6">
-            {socialLinks.map((link) => (
+            {contactLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}

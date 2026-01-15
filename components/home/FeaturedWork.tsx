@@ -17,7 +17,7 @@ export default function FeaturedWork() {
       approach: 'Azınlık sınıflar için ACGAN tabanlı veri artırma ile Enhanced SE-ResNet kullanan full-stack uygulama geliştirildi, %97,23 doğruluk elde edildi',
       tags: ['FastAPI', 'PyTorch', 'React', 'ACGAN'],
       slug: 'skin-lesion-classification',
-      image: null,
+      image: '/images/projects/skin-lesion.png',
     }
   } : {
     skinLesion: {
@@ -27,7 +27,7 @@ export default function FeaturedWork() {
       approach: 'Developed full-stack application using Enhanced SE-ResNet with ACGAN-based augmentation for minority classes, achieving 97.23% accuracy',
       tags: ['FastAPI', 'PyTorch', 'React', 'ACGAN'],
       slug: 'skin-lesion-classification',
-      image: null,
+      image: '/images/projects/skin-lesion.png',
     }
   };
 
@@ -38,7 +38,8 @@ export default function FeaturedWork() {
     approach: 'Clean Architecture ve domain-driven design prensipleriyle geliştirilmiş, AI Copilot ve RAG teknolojileri ile desteklenen kurumsal ticketing sistemi',
     tags: ['ASP.NET Core', 'Clean Architecture', 'SQL Server', 'AI Copilot'],
     slug: 'airline-ticketing-system',
-    image: null,
+    image: '/images/projects/airline-ticketing.png',
+    imagePosition: 'top',
   } : {
     id: 2,
     title: 'Airline Customer Support Ticketing System with AI Copilot',
@@ -46,7 +47,8 @@ export default function FeaturedWork() {
     approach: 'Enterprise ticketing system built with Clean Architecture and domain-driven design, enhanced with AI Copilot and RAG technologies',
     tags: ['ASP.NET Core', 'Clean Architecture', 'SQL Server', 'AI Copilot'],
     slug: 'airline-ticketing-system',
-    image: null,
+    image: '/images/projects/airline-ticketing.png',
+    imagePosition: 'top',
   };
 
   const featuredProjects = [
@@ -82,7 +84,8 @@ export default function FeaturedWork() {
                   alt={project.title} 
                   width={1200}
                   height={400}
-                  className="w-full h-full object-cover" 
+                  className="w-full h-full object-cover"
+                  style={{ objectPosition: project.imagePosition || 'center' }}
                 />
               ) : (
                 <span className="text-sm">[Proje Görseli]</span>

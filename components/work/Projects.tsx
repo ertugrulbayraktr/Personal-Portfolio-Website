@@ -22,7 +22,7 @@ export default function Projects() {
       ],
       github: 'https://github.com/ertugrulbayraktr/Enhancing-Skin-Lesion-Classification-with-GAN-Based-Augmentation-and-Deep-Learning',
       demo: 'https://enhancing-skin-lesion-classificatio.vercel.app/',
-      image: null,
+      image: '/images/projects/skin-lesion.png',
     }
   } : {
     skinLesion: {
@@ -38,7 +38,7 @@ export default function Projects() {
       ],
       github: 'https://github.com/ertugrulbayraktr/Enhancing-Skin-Lesion-Classification-with-GAN-Based-Augmentation-and-Deep-Learning',
       demo: 'https://enhancing-skin-lesion-classificatio.vercel.app/',
-      image: null,
+      image: '/images/projects/skin-lesion.png',
     }
   };
 
@@ -55,7 +55,8 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/airline-ticketing.png',
+    imagePosition: 'top',
   } : {
     id: 2,
     slug: 'airline-ticketing-system',
@@ -69,7 +70,8 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/airline-ticketing.png',
+    imagePosition: 'top',
   };
 
   const ecommerceData = locale === 'tr' ? {
@@ -85,7 +87,7 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/ecommerce.png',
   } : {
     id: 3,
     slug: 'ecommerce-platform',
@@ -99,7 +101,7 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/ecommerce.png',
   };
 
   const taskmasterData = locale === 'tr' ? {
@@ -115,7 +117,7 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/taskmaster.png',
   } : {
     id: 4,
     slug: 'taskmaster',
@@ -129,7 +131,7 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/taskmaster.png',
   };
 
   const cryptoTradingData = locale === 'tr' ? {
@@ -145,7 +147,7 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/crypto-trading.png',
   } : {
     id: 5,
     slug: 'crypto-trading-signals',
@@ -159,7 +161,7 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/crypto-trading.png',
   };
 
   const crtBotData = locale === 'tr' ? {
@@ -175,7 +177,7 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/crt-bot.png',
   } : {
     id: 6,
     slug: 'crt-telegram-bot',
@@ -189,7 +191,7 @@ export default function Projects() {
     ],
     github: '#',
     demo: null,
-    image: null,
+    image: '/images/projects/crt-bot.png',
   };
 
   const projects = [
@@ -218,7 +220,12 @@ export default function Projects() {
             {/* Project Image */}
             <div className="w-full h-48 bg-surface flex items-center justify-center text-text-secondary border-b border-surface">
               {project.image ? (
-                <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+                <img 
+                  src={project.image} 
+                  alt={project.title} 
+                  className="w-full h-full object-cover"
+                  style={{ objectPosition: project.imagePosition || 'center' }}
+                />
               ) : (
                 <span className="text-sm">[Project Image]</span>
               )}
