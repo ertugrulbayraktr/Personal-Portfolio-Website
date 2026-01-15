@@ -18,6 +18,7 @@ export default function FeaturedWork() {
       tags: ['FastAPI', 'PyTorch', 'React', 'ACGAN'],
       slug: 'skin-lesion-classification',
       image: '/images/projects/skin-lesion.png',
+      imagePosition: 'center',
     }
   } : {
     skinLesion: {
@@ -28,6 +29,7 @@ export default function FeaturedWork() {
       tags: ['FastAPI', 'PyTorch', 'React', 'ACGAN'],
       slug: 'skin-lesion-classification',
       image: '/images/projects/skin-lesion.png',
+      imagePosition: 'center',
     }
   };
 

@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import Image from 'next/image';
 
 export default function Projects() {
   const t = useTranslations('work');
@@ -23,6 +24,7 @@ export default function Projects() {
       github: 'https://github.com/ertugrulbayraktr/Enhancing-Skin-Lesion-Classification-with-GAN-Based-Augmentation-and-Deep-Learning',
       demo: 'https://enhancing-skin-lesion-classificatio.vercel.app/',
       image: '/images/projects/skin-lesion.png',
+      imagePosition: 'center',
     }
   } : {
     skinLesion: {
@@ -39,6 +41,7 @@ export default function Projects() {
       github: 'https://github.com/ertugrulbayraktr/Enhancing-Skin-Lesion-Classification-with-GAN-Based-Augmentation-and-Deep-Learning',
       demo: 'https://enhancing-skin-lesion-classificatio.vercel.app/',
       image: '/images/projects/skin-lesion.png',
+      imagePosition: 'center',
     }
   };
 
@@ -88,6 +91,7 @@ export default function Projects() {
     github: '#',
     demo: null,
     image: '/images/projects/ecommerce.png',
+    imagePosition: 'center',
   } : {
     id: 3,
     slug: 'ecommerce-platform',
@@ -102,6 +106,7 @@ export default function Projects() {
     github: '#',
     demo: null,
     image: '/images/projects/ecommerce.png',
+    imagePosition: 'center',
   };
 
   const taskmasterData = locale === 'tr' ? {
@@ -118,6 +123,7 @@ export default function Projects() {
     github: '#',
     demo: null,
     image: '/images/projects/taskmaster.png',
+    imagePosition: 'center',
   } : {
     id: 4,
     slug: 'taskmaster',
@@ -132,6 +138,7 @@ export default function Projects() {
     github: '#',
     demo: null,
     image: '/images/projects/taskmaster.png',
+    imagePosition: 'center',
   };
 
   const cryptoTradingData = locale === 'tr' ? {
@@ -148,6 +155,7 @@ export default function Projects() {
     github: '#',
     demo: null,
     image: '/images/projects/crypto-trading.png',
+    imagePosition: 'center',
   } : {
     id: 5,
     slug: 'crypto-trading-signals',
@@ -162,6 +170,7 @@ export default function Projects() {
     github: '#',
     demo: null,
     image: '/images/projects/crypto-trading.png',
+    imagePosition: 'center',
   };
 
   const crtBotData = locale === 'tr' ? {
@@ -178,6 +187,7 @@ export default function Projects() {
     github: '#',
     demo: null,
     image: '/images/projects/crt-bot.png',
+    imagePosition: 'center',
   } : {
     id: 6,
     slug: 'crt-telegram-bot',
@@ -192,6 +202,7 @@ export default function Projects() {
     github: '#',
     demo: null,
     image: '/images/projects/crt-bot.png',
+    imagePosition: 'center',
   };
 
   const projects = [
@@ -220,9 +231,11 @@ export default function Projects() {
             {/* Project Image */}
             <div className="w-full h-48 bg-surface flex items-center justify-center text-text-secondary border-b border-surface">
               {project.image ? (
-                <img 
+                <Image 
                   src={project.image} 
-                  alt={project.title} 
+                  alt={project.title}
+                  width={600}
+                  height={192}
                   className="w-full h-full object-cover"
                   style={{ objectPosition: project.imagePosition || 'center' }}
                 />

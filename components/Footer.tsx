@@ -1,9 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
-
 export default function Footer() {
-  const t = useTranslations('footer');
   const currentYear = new Date().getFullYear();
 
   const contactLinks = [

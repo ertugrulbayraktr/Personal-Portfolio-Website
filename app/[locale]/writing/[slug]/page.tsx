@@ -1,11 +1,18 @@
 import { notFound } from 'next/navigation';
-import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 
+interface Post {
+  title: string;
+  date: string;
+  readTime: number;
+  category: string;
+  content: string;
+}
+
 // This would typically fetch from a CMS or markdown files
-async function getPost(slug: string, locale: string) {
+async function getPost(slug: string, locale: string): Promise<Post | null> {
   // Blog post data
-  const postsEn: Record<string, any> = {
+  const postsEn: Record<string, Post> = {
     'stuxnet-strategic-weapon': {
       title: 'Stuxnet: When Software Became a Strategic Weapon',
       date: '2025-01-15',
@@ -30,7 +37,7 @@ async function getPost(slug: string, locale: string) {
     },
   };
 
-  const postsTr: Record<string, any> = {
+  const postsTr: Record<string, Post> = {
     'stuxnet-strategic-weapon': {
       title: 'Stuxnet: Yazılımın Stratejik Bir Silaha Dönüştüğü An',
       date: '2025-01-15',

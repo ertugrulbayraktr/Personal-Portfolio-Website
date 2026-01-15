@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 export default function Narrative() {
   const t = useTranslations('about');
@@ -16,9 +17,11 @@ export default function Narrative() {
         {/* Right: Photo */}
         <div className="flex-shrink-0">
           <div className="w-64 h-64 bg-surface rounded-xl border border-surface overflow-hidden">
-            <img 
+            <Image 
               src="/images/profile.jpg" 
-              alt="Ertuğrul Bayraktar" 
+              alt="Ertuğrul Bayraktar"
+              width={256}
+              height={256}
               className="w-full h-full object-cover scale-[1.20] object-[center_75%]" 
             />
           </div>

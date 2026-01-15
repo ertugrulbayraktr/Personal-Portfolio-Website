@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 export default function Experience() {
   const t = useTranslations('work');
@@ -42,9 +43,11 @@ export default function Experience() {
             <div className="flex-shrink-0">
               <div className="w-16 h-16 rounded-lg border border-gray-700 overflow-hidden bg-white flex items-center justify-center">
                 {exp.logo ? (
-                  <img
+                  <Image
                     src={exp.logo}
                     alt={`${tExp(`${exp.id}.company`)} logo`}
+                    width={64}
+                    height={64}
                     className="w-full h-full object-contain"
                   />
                 ) : (

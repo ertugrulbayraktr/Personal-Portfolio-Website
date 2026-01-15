@@ -1,11 +1,29 @@
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/routing';
-import { useTranslations } from 'next-intl';
+import Image from 'next/image';
+
+interface Project {
+  title: string;
+  description: string;
+  overview: string;
+  problem: string;
+  solution: string;
+  tech: string[];
+  features: string[];
+  architecture?: string;
+  performance?: string[];
+  contribution?: string;
+  legalNotice?: string;
+  challenges?: string[];
+  github?: string;
+  demo?: string | null;
+  image?: string | null;
+}
 
 // This would typically fetch from a database or CMS
 // For now, using the same data as Projects.tsx
-function getProject(slug: string, locale: string) {
-  const projectsEn: Record<string, any> = {
+function getProject(slug: string, locale: string): Project | null {
+  const projectsEn: Record<string, Project> = {
     'skin-lesion-classification': {
       title: 'Enhancing Skin Lesion Classification Web Application with GAN-Based Augmentation and Deep Learning',
       description: 'Full-stack dermoscopy classification using Enhanced SE-ResNet and ACGAN-based augmentation (5 classes, 97.23% accuracy).',
@@ -162,7 +180,7 @@ function getProject(slug: string, locale: string) {
     // Add more projects as needed
   };
 
-  const projectsTr: Record<string, any> = {
+  const projectsTr: Record<string, Project> = {
     'skin-lesion-classification': {
       title: 'Derin Öğrenme Tabanlı Cilt Lezyonu Sınıflandırma Sistemi',
       description: 'Enhanced SE-ResNet ve ACGAN tabanlı veri artırma kullanılarak geliştirilen full-stack dermoskopi sınıflandırma sistemi (5 sınıf, %97,23 doğruluk).',
@@ -404,9 +422,11 @@ export default async function ProjectDetailPage({
         {project.image ? (
           <div className="flex justify-center mb-12">
             <div className="max-w-full rounded-lg overflow-hidden bg-surface">
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
+                width={800}
+                height={400}
                 className="max-h-96 w-auto"
               />
             </div>

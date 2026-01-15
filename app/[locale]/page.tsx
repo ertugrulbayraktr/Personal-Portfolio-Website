@@ -1,5 +1,3 @@
-import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
 import Hero from '@/components/home/Hero';
 import BeyondEngineering from '@/components/home/BeyondEngineering';
 import FeaturedWork from '@/components/home/FeaturedWork';
