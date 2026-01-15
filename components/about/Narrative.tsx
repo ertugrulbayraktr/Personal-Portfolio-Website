@@ -19,7 +19,7 @@ export default function Narrative() {
             <img 
               src="/images/profile.jpg" 
               alt="Ertuğrul Bayraktar" 
-              className="w-full h-full object-cover" 
+              className="w-full h-full object-cover scale-[1.20] object-[center_75%]" 
             />
           </div>
         </div>

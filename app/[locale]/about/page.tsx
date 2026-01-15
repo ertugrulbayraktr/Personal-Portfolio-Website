@@ -9,8 +9,8 @@ export default function AboutPage() {
 
   return (
     <div className="w-full">
-      <div className="max-w-content mx-auto px-6 py-16">
-        <h1 className="text-4xl md:text-5xl font-serif font-bold mb-16 text-text-primary">
+      <div className="max-w-content mx-auto px-6 pt-16 pb-4">
+        <h1 className="text-4xl md:text-5xl font-serif font-bold text-text-primary">
           {t('title')}
         </h1>
       </div>
