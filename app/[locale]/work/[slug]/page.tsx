@@ -31,7 +31,7 @@ function getProject(slug: string, locale: string) {
       legalNotice: 'Educational and research purposes only. Not a medical device.',
       github: 'https://github.com/ertugrulbayraktr/Enhancing-Skin-Lesion-Classification-with-GAN-Based-Augmentation-and-Deep-Learning',
       demo: 'https://enhancing-skin-lesion-classificatio.vercel.app/',
-      image: null,
+      image: '/images/projects/skin-lesion-detail.png',
     },
     'distributed-task-queue': {
       title: 'Distributed Task Queue System',
@@ -114,9 +114,9 @@ function getProject(slug: string, locale: string) {
       ],
       architecture: 'Backend: Django (Python), Django ORM • Frontend: HTML, CSS, JavaScript, jQuery, Bootstrap • Database: PostgreSQL • Interaction: AJAX for dynamic UI updates • Auth: Django authentication with role-based access control',
       contribution: 'Designed and developed the full web application using Django • Modeled relational data structures for users, teams, projects, and tasks • Implemented role-based access control and permission rules • Built the Kanban board with drag-and-drop and AJAX interactions • Implemented notification logic and responsive UI components',
-      github: '#',
+      github: 'https://github.com/ertugrulbayraktr/cs50w-finalproject-TaskMaster',
       demo: null,
-      image: null,
+      image: '/images/projects/taskmaster-detail.png',
     },
     'crypto-trading-signals': {
       title: 'Machine Learning–Based Crypto Trading Signal Platform',
@@ -188,7 +188,7 @@ function getProject(slug: string, locale: string) {
       legalNotice: 'Bu proje yalnızca eğitim ve araştırma amaçlıdır. Tıbbi bir cihaz değildir.',
       github: 'https://github.com/ertugrulbayraktr/Enhancing-Skin-Lesion-Classification-with-GAN-Based-Augmentation-and-Deep-Learning',
       demo: 'https://enhancing-skin-lesion-classificatio.vercel.app/',
-      image: null,
+      image: '/images/projects/skin-lesion-detail.png',
     },
     'distributed-task-queue': {
       title: 'Distributed Task Queue System',
@@ -271,9 +271,9 @@ function getProject(slug: string, locale: string) {
       ],
       architecture: 'Backend: Django (Python), Django ORM • Frontend: HTML, CSS, JavaScript, jQuery, Bootstrap • Veritabanı: PostgreSQL • Etkileşim: AJAX ile dinamik kullanıcı arayüzü • Güvenlik: Django authentication ve rol bazlı yetkilendirme',
       contribution: 'Django kullanarak uçtan uca web uygulamasının geliştirilmesi • Kullanıcı, ekip, proje ve görevler için ilişkisel veri modellerinin tasarlanması • Rol bazlı yetkilendirme ve erişim kurallarının uygulanması • Kanban panosu ve AJAX tabanlı kullanıcı etkileşimlerinin geliştirilmesi • Bildirim mekanizması ve responsive arayüz bileşenlerinin oluşturulması',
-      github: '#',
+      github: 'https://github.com/ertugrulbayraktr/cs50w-finalproject-TaskMaster',
       demo: null,
-      image: null,
+      image: '/images/projects/taskmaster-detail.png',
     },
     'crypto-trading-signals': {
       title: 'Makine Öğrenmesi Tabanlı Kripto Para Alım-Satım Sinyal Platformu',
@@ -402,12 +402,14 @@ export default async function ProjectDetailPage({
 
         {/* Project Image */}
         {project.image ? (
-          <div className="w-full h-96 mb-12 rounded-lg overflow-hidden">
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-full object-cover"
-            />
+          <div className="flex justify-center mb-12">
+            <div className="max-w-full rounded-lg overflow-hidden bg-surface">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="max-h-96 w-auto"
+              />
+            </div>
           </div>
         ) : (
           <div className="w-full h-96 bg-surface rounded-lg flex items-center justify-center mb-12 border border-surface">
