@@ -1,61 +1,64 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { useState } from 'react';
 import { Link } from '@/i18n/routing';
 
-type Category = 'all' | 'engineering' | 'markets' | 'systems' | 'career';
+type Category = 'all' | 'software' | 'trading' | 'strategic';
 
 export default function WritingPage() {
   const t = useTranslations('writing');
   const [activeCategory, setActiveCategory] = useState<Category>('all');
+  const locale = useLocale();
 
-  // Placeholder blog posts
-  const posts = [
+  // Blog posts
+  const postsData = locale === 'tr' ? [
     {
       id: 1,
-      title: 'System Design Lessons from Trading',
-      excerpt: 'How principles from financial markets can improve software architecture decisions and risk management in distributed systems.',
-      category: 'engineering' as Category,
-      readTime: 8,
-      date: '2024-01-15',
-      slug: 'system-design-from-trading',
+      title: 'Stuxnet: Yazılımın Stratejik Bir Silaha Dönüştüğü An',
+      excerpt: 'Bir yazılımın siber savaş ve istihbarat anlayışını nasıl değiştirdiği.',
+      category: 'strategic' as Category,
+      readTime: 10,
+      date: '2025-01-15',
+      slug: 'stuxnet-strategic-weapon',
     },
     {
       id: 2,
-      title: 'Building Resilient Backend Systems',
-      excerpt: 'Patterns and practices for creating fault-tolerant distributed services that handle failure gracefully.',
-      category: 'systems' as Category,
-      readTime: 12,
-      date: '2024-01-08',
-      slug: 'resilient-backend-systems',
+      title: 'Composition ve Inheritance: Değişime Uyumlu Yazılım Tasarlamak',
+      excerpt: 'Neden composition çoğu durumda daha esnek ve sürdürülebilir çözümler sunar.',
+      category: 'software' as Category,
+      readTime: 8,
+      date: '2025-01-12',
+      slug: 'composition-vs-inheritance',
+    },
+  ] : [
+    {
+      id: 1,
+      title: 'Stuxnet: When Software Became a Strategic Weapon',
+      excerpt: 'How a piece of code reshaped cyber warfare and intelligence operations.',
+      category: 'strategic' as Category,
+      readTime: 10,
+      date: '2025-01-15',
+      slug: 'stuxnet-strategic-weapon',
     },
     {
-      id: 3,
-      title: 'Price Action and Code Quality',
-      excerpt: 'What market structure teaches us about clean code, refactoring decisions, and technical debt.',
-      category: 'markets' as Category,
-      readTime: 6,
-      date: '2023-12-20',
-      slug: 'price-action-code-quality',
-    },
-    {
-      id: 4,
-      title: 'From Kickboxing to Engineering',
-      excerpt: 'How competitive sports shaped my approach to problem-solving, discipline, and continuous improvement.',
-      category: 'career' as Category,
-      readTime: 7,
-      date: '2023-12-10',
-      slug: 'kickboxing-to-engineering',
+      id: 2,
+      title: 'Composition vs Inheritance: Designing for Change in Software Systems',
+      excerpt: 'Why composition often leads to more flexible and maintainable designs.',
+      category: 'software' as Category,
+      readTime: 8,
+      date: '2025-01-12',
+      slug: 'composition-vs-inheritance',
     },
   ];
 
+  const posts = postsData;
+
   const categories: { key: Category; label: string }[] = [
     { key: 'all', label: t('categories.all') },
-    { key: 'engineering', label: t('categories.engineering') },
-    { key: 'markets', label: t('categories.markets') },
-    { key: 'systems', label: t('categories.systems') },
-    { key: 'career', label: t('categories.career') },
+    { key: 'software', label: t('categories.software') },
+    { key: 'trading', label: t('categories.trading') },
+    { key: 'strategic', label: t('categories.strategic') },
   ];
 
   const filteredPosts =

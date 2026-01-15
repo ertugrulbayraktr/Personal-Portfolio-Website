@@ -100,20 +100,19 @@
   },
   "writing": {
     "title": "Yazılar",
-    "subtitle": "Mühendislik, piyasalar ve sistem düşüncesi üzerine düşünceler",
+    "subtitle": "Yazılım geliştirme, trading ve risk yönetimi ile teknolojinin modern çatışmalar ve istihbarattaki stratejik rolü üzerine notlar.",
     "categories": {
-      "all": "Tümü",
-      "engineering": "Mühendislik",
-      "markets": "Piyasalar",
-      "systems": "Sistemler",
-      "career": "Kariyer"
+      "all": "TÜMÜ",
+      "software": "Yazılım Geliştirme",
+      "trading": "Trading ve Risk Yönetimi",
+      "strategic": "Stratejik Teknoloji"
     },
     "read_more": "Devamını oku",
     "min_read": "dk okuma"
   },
   "about": {
     "title": "Hakkımda",
-    "narrative": "Spora olan güçlü tutkumla büyüdüm ve disiplin her zaman hayatımın belirleyici bir parçası oldu. Lisanslı bir kickboksçu olarak ve birden fazla atletik alanda deneyimle, tutarlılık, odaklanma ve dayanıklılığın değerini erken yaşta öğrendim — hem kişisel gelişimimi hem de mühendislik yaklaşımımı şekillendiren özellikler.\n\nTeknolojiye olan ilgim küçük yaşta başladı ve üniversite sırasında yazılım geliştirmeye derinlemesine dahil olduğumda doğal olarak daha derin bir bağlılığa dönüştü. Merak olarak başlayan şey hızla uzun vadeli bir arayışa dönüştü ve beni backend mühendisliği ve modern web teknolojilerine yönlendirdi. Zamanla .NET ekosistemine, ölçeklenebilir backend tasarımına ve temiz, sürdürülebilir kod prensiplerine yöneldim. ASP.NET Core, React, SQL Server, Redis ve RabbitMQ gibi teknolojilerle çalışmak, problem çözme ve sistem güvenilirliği etrafında güçlü bir mühendislik temeli oluşturmama yardımcı oldu.\n\nYazılım geliştirmenin yanı sıra, üniversite sırasında kurduğum bir e-ticaret işletmesi olan LLux'u kurarak girişimcilik yolculuğuma ilk adımımı attım. Ürün geliştirme, operasyonlar ve müşteri iş akışlarını yönetmek bana küçük gerçek dünya sistemleri kurma konusunda uygulamalı deneyim kazandırdı — ve sahiplenme, uyum sağlama ve sonuç vermenin pratik değerini öğretti.\n\nAyrıca finansal piyasalara uzun süredir devam eden kişisel bir ilgim var. Altı yılı aşkın süredir bireysel yatırımcı olarak trading ve uzun vadeli yatırım yapıyorum. Bu deneyim piyasa davranışı, risk ve strateji anlayışımı derinleştirdi ve karmaşık problemleri nasıl analiz ettiğime ve karar verdiğime başka bir boyut kattı.\n\nEn son profesyonel adımım, kurumsal düzeyde dahili uygulamalara katkıda bulunduğum SunExpress Havayolları'nın Business Airline Solutions ekibine katılmak oldu. Gerçek bir kurumsal mühendislik ortamında çalışmak, ölçeklenebilir mimari, Agile uygulamaları, CI/CD pipeline'ları ve büyük ölçekli sistemlerde ekip çalışması anlayışımı güçlendirdi.\n\nBugün, .NET ile backend mühendisliğine, bulut tabanlı geliştirmeye ve sistem tasarımına odaklanmaya devam ediyorum — aynı zamanda yapay zeka ve makine öğrenmesi alanındaki bilgimi genişletiyorum. Amacım, bu alanları kariyerim boyunca anlamlı, yüksek etkili teknolojik çalışmalarda birleştirmek.",
+    "narrative": "Backend ağırlıklı çalışan bir yazılım mühendisiyim. Üretim ortamlarında çalışan sistemler, API tasarımı ve backend servisler geliştirme üzerine odaklanıyorum. Ağırlıklı olarak .NET ekosisteminde çalışıyor; bunun yanında Python tabanlı web ve yapay zekâ entegreli uygulamalar geliştiriyorum.\n\nKariyerim boyunca, farklı alanlarda deneyim edinmeye ve çok yönlü bir gelişim sağlamaya odaklandım. Bu süreçte finansal piyasalarda trading üzerine çalışmalar yürüttüm, üniversite yıllarında kendi e-ticaret girişimimi kurup yönettim ve uzun yıllar profesyonel lisanslı olarak sporla ilgilendim.",
     "education_title": "Eğitim",
     "certifications_title": "Sertifikalar ve Başarılar",
     "contact_title": "İletişim",

@@ -3,102 +3,59 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 
 // This would typically fetch from a CMS or markdown files
-// For now, using placeholder content
-async function getPost(slug: string) {
-  // Placeholder post data
-  const posts: Record<string, any> = {
-    'system-design-from-trading': {
-      title: 'System Design Lessons from Trading',
-      date: '2024-01-15',
-      readTime: 8,
-      category: 'Engineering',
+async function getPost(slug: string, locale: string) {
+  // Blog post data
+  const postsEn: Record<string, any> = {
+    'stuxnet-strategic-weapon': {
+      title: 'Stuxnet: When Software Became a Strategic Weapon',
+      date: '2025-01-15',
+      readTime: 10,
+      category: 'Strategic Technology',
       content: `
-# System Design Lessons from Trading
+# Stuxnet: When Software Became a Strategic Weapon
 
-Trading in financial markets has taught me invaluable lessons about building reliable software systems. The parallels between market behavior and distributed systems are striking.
-
-## Risk Management
-
-In trading, you never risk more than you can afford to lose. In system design, this translates to:
-
-- **Circuit breakers**: Prevent cascading failures
-- **Bulkheads**: Isolate critical components
-- **Graceful degradation**: Maintain core functionality
-
-## Probability Thinking
-
-Markets operate on probabilities, not certainties. This mindset helps in:
-
-- Making architectural decisions under uncertainty
-- Planning for edge cases and failure modes
-- Building resilient systems that expect and handle failure
-
-## Monitoring and Adaptation
-
-Just as traders constantly monitor positions and adapt to market conditions, engineers must:
-
-- Implement comprehensive monitoring
-- Use metrics to make informed decisions
-- Be ready to pivot when data suggests a different approach
-
-The key is to embrace uncertainty and build systems that can thrive in unpredictable environments.
+*Content coming soon...*
       `,
     },
-    'resilient-backend-systems': {
-      title: 'Building Resilient Backend Systems',
-      date: '2024-01-08',
-      readTime: 12,
-      category: 'Systems',
+    'composition-vs-inheritance': {
+      title: 'Composition vs Inheritance: Designing for Change in Software Systems',
+      date: '2025-01-12',
+      readTime: 8,
+      category: 'Software Development',
       content: `
-# Building Resilient Backend Systems
+# Composition vs Inheritance: Designing for Change in Software Systems
 
-Resilience is not about avoiding failures—it's about handling them gracefully. Here are key patterns I've learned.
-
-## Core Principles
-
-1. **Expect failure**: Systems will fail. Plan for it.
-2. **Fail fast**: Detect problems quickly and recover
-3. **Isolate failures**: Don't let one component take down the entire system
-
-## Practical Patterns
-
-### Retries with Exponential Backoff
-
-\`\`\`csharp
-public async Task<T> RetryAsync<T>(Func<Task<T>> operation, int maxAttempts = 3)
-{
-    for (int i = 0; i < maxAttempts; i++)
-    {
-        try
-        {
-            return await operation();
-        }
-        catch (Exception ex) when (i < maxAttempts - 1)
-        {
-            await Task.Delay(TimeSpan.FromSeconds(Math.Pow(2, i)));
-        }
-    }
-    throw new Exception("Max retry attempts reached");
-}
-\`\`\`
-
-### Circuit Breaker Pattern
-
-Prevent repeated calls to failing services. Monitor failure rate and "open" the circuit when threshold is exceeded.
-
-## Monitoring
-
-You can't fix what you can't see:
-
-- Track error rates and latencies
-- Set up alerts for anomalies
-- Use distributed tracing for debugging
-
-Building resilient systems is a continuous process of learning, monitoring, and improving.
+*Content coming soon...*
       `,
     },
   };
 
+  const postsTr: Record<string, any> = {
+    'stuxnet-strategic-weapon': {
+      title: 'Stuxnet: Yazılımın Stratejik Bir Silaha Dönüştüğü An',
+      date: '2025-01-15',
+      readTime: 10,
+      category: 'Stratejik Teknoloji',
+      content: `
+# Stuxnet: Yazılımın Stratejik Bir Silaha Dönüştüğü An
+
+*İçerik yakında eklenecek...*
+      `,
+    },
+    'composition-vs-inheritance': {
+      title: 'Composition ve Inheritance: Değişime Uyumlu Yazılım Tasarlamak',
+      date: '2025-01-12',
+      readTime: 8,
+      category: 'Yazılım Geliştirme',
+      content: `
+# Composition ve Inheritance: Değişime Uyumlu Yazılım Tasarlamak
+
+*İçerik yakında eklenecek...*
+      `,
+    },
+  };
+
+  const posts = locale === 'tr' ? postsTr : postsEn;
   const post = posts[slug];
   if (!post) return null;
 
@@ -111,7 +68,7 @@ export default async function BlogPostPage({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
-  const post = await getPost(slug);
+  const post = await getPost(slug, locale);
 
   if (!post) {
     notFound();

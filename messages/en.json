@@ -100,20 +100,19 @@
   },
   "writing": {
     "title": "Writing",
-    "subtitle": "Thoughts on engineering, markets, and systems thinking",
+    "subtitle": "Thoughts on software development, trading and risk management, and the strategic role of technology in modern conflicts and intelligence.",
     "categories": {
-      "all": "All",
-      "engineering": "Engineering",
-      "markets": "Markets",
-      "systems": "Systems",
-      "career": "Career"
+      "all": "ALL",
+      "software": "Software Development",
+      "trading": "Trading & Risk Management",
+      "strategic": "Strategic Technology"
     },
     "read_more": "Read more",
     "min_read": "min read"
   },
   "about": {
     "title": "About",
-    "narrative": "Growing up with a strong passion for sports, discipline has always been a defining part of my life. As a licensed kickboxer with experience in multiple athletic fields, I learned early on the value of consistency, focus, and resilience — qualities that have shaped both my personal growth and my approach to engineering.\n\nMy interest in technology started at a young age and naturally evolved into a deeper commitment during university, where I immersed myself in software development. What began as curiosity quickly became a long-term pursuit, leading me toward backend engineering and modern web technologies. Over time, I gravitated toward the .NET ecosystem, scalable backend design, and the principles of clean, maintainable code. Working with technologies like ASP.NET Core, React, SQL Server, Redis, and RabbitMQ helped me build a strong engineering foundation centered around problem-solving and system reliability.\n\nAlongside software development, I took my first step into entrepreneurship by founding LLux, an e-commerce business I launched during university. Managing product development, operations, and customer workflows gave me hands-on experience in building small real-world systems — and taught me the practical value of ownership, adaptability, and delivering results.\n\nI also have a long-standing personal interest in financial markets. For over six years, I have been involved in trading and long-term investing as an individual investor. This experience deepened my understanding of market behavior, risk, and strategy, adding another dimension to how I analyze complex problems and make decisions.\n\nMy latest professional step was joining SunExpress Airlines within the Business Airline Solutions team, where I contributed to enterprise-level internal applications. Working in a real corporate engineering environment strengthened my understanding of scalable architecture, Agile practices, CI/CD pipelines, and teamwork in large-scale systems.\n\nToday, I continue to focus on backend engineering with .NET, cloud-based development, and system design — while also expanding my knowledge in AI and machine learning. My goal is to combine these areas into meaningful, high-impact technological work throughout my career.",
+    "narrative": "I am a software engineer with a primary focus on backend development. I work on systems running in production environments, API design, and backend services. My work is mainly centered around the .NET ecosystem, alongside developing Python-based web applications and AI-integrated systems.\n\nThroughout my career, I have focused on gaining experience across different domains and building a well-rounded professional background. During this time, I have worked on trading in financial markets, founded and managed an e-commerce venture during my university years, and competed in sports at a professional, licensed level.",
     "education_title": "Education",
     "certifications_title": "Certifications & Achievements",
     "contact_title": "Contact",

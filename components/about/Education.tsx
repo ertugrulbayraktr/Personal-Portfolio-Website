@@ -1,22 +1,47 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function Education() {
   const t = useTranslations('about');
+  const locale = useLocale();
 
   // Education data
-  const education = [
+  const educationData = locale === 'tr' ? [
+    {
+      degree: 'Yazılım Mühendisliği Lisans Derecesi (B.S.)',
+      school: 'Bahçeşehir Üniversitesi, İstanbul',
+      period: 'Eylül 2021 – Kasım 2025',
+      badge: 'İngilizce Eğitim | Burslu',
+      courseworkLabel: 'Öne Çıkan Dersler:',
+      coursework: [
+        'AWS Academy Bulut Bilişim Temelleri',
+        'Python ile İleri Düzey Programlama',
+        'Veri Yapıları ve Algoritmalar',
+        'Yapay Zekâ ve Uzman Sistemlere Giriş',
+        'Kuantum Bilişime Giriş',
+        'Yazılım Mühendisliği Analizi ve Tasarımı',
+      ],
+    },
+    {
+      degree: 'İngilizce Hazırlık Programı',
+      school: 'Bahçeşehir Üniversitesi, İstanbul',
+      period: 'Eylül 2020 – Ocak 2021',
+    },
+  ] : [
     {
       degree: 'Bachelor of Science (B.S.) in Software Engineering',
       school: 'Bahçeşehir University, Istanbul',
       period: 'September 2021 – November 2025',
       badge: 'English Curriculum | Scholarship',
+      courseworkLabel: 'Key Coursework:',
       coursework: [
-        'Advanced Algorithms & Data Structures',
-        'Distributed Systems & Cloud Computing',
-        'Database Management Systems',
-        'Software Architecture & Design Patterns',
+        'AWS Academy Cloud Computing Foundations',
+        'Advanced Programming with Python',
+        'Data Structures and Algorithms',
+        'Introduction to Artificial Intelligence & Expert Systems',
+        'Introduction to Quantum Computing',
+        'Software Engineering Analysis and Design',
       ],
     },
     {
@@ -25,6 +50,8 @@ export default function Education() {
       period: 'September 2020 – January 2021',
     },
   ];
+
+  const education = educationData;
 
   return (
     <section className="max-w-content mx-auto px-6 py-16 border-t border-surface">
@@ -52,7 +79,7 @@ export default function Education() {
             {edu.coursework && (
               <div className="mt-4">
                 <div className="text-sm font-medium text-text-primary mb-2">
-                  Key Coursework:
+                  {edu.courseworkLabel}
                 </div>
                 <ul className="space-y-1">
                   {edu.coursework.map((course, i) => (

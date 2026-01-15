@@ -1,33 +1,55 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 
 export default function LatestWriting() {
   const t = useTranslations('home.latest_writing');
   const tWriting = useTranslations('writing');
+  const locale = useLocale();
 
-  // Placeholder posts - will be replaced with real data
-  const latestPosts = [
+  // Latest blog posts
+  const postsData = locale === 'tr' ? [
     {
       id: 1,
-      title: 'System Design Lessons from Trading',
-      excerpt: 'How principles from financial markets can improve software architecture decisions',
-      category: 'Engineering',
-      readTime: 8,
-      date: '2024-01-15',
-      slug: 'system-design-from-trading',
+      title: 'Stuxnet: Yazılımın Stratejik Bir Silaha Dönüştüğü An',
+      excerpt: 'Bir yazılımın siber savaş ve istihbarat anlayışını nasıl değiştirdiği.',
+      category: 'Stratejik Teknoloji',
+      readTime: 10,
+      date: '2025-01-15',
+      slug: 'stuxnet-strategic-weapon',
     },
     {
       id: 2,
-      title: 'Building Resilient Backend Systems',
-      excerpt: 'Patterns and practices for creating fault-tolerant distributed services',
-      category: 'Systems',
-      readTime: 12,
-      date: '2024-01-08',
-      slug: 'resilient-backend-systems',
+      title: 'Composition ve Inheritance: Değişime Uyumlu Yazılım Tasarlamak',
+      excerpt: 'Neden composition çoğu durumda daha esnek ve sürdürülebilir çözümler sunar.',
+      category: 'Yazılım Geliştirme',
+      readTime: 8,
+      date: '2025-01-12',
+      slug: 'composition-vs-inheritance',
+    },
+  ] : [
+    {
+      id: 1,
+      title: 'Stuxnet: When Software Became a Strategic Weapon',
+      excerpt: 'How a piece of code reshaped cyber warfare and intelligence operations.',
+      category: 'Strategic Technology',
+      readTime: 10,
+      date: '2025-01-15',
+      slug: 'stuxnet-strategic-weapon',
+    },
+    {
+      id: 2,
+      title: 'Composition vs Inheritance: Designing for Change in Software Systems',
+      excerpt: 'Why composition often leads to more flexible and maintainable designs.',
+      category: 'Software Development',
+      readTime: 8,
+      date: '2025-01-12',
+      slug: 'composition-vs-inheritance',
     },
   ];
+
+  const latestPosts = postsData;
 
   return (
     <section className="max-w-content mx-auto px-6 py-20 border-t border-surface">
