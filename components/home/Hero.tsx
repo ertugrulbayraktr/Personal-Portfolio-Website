@@ -38,7 +38,7 @@ export default function Hero() {
         {/* Social Links */}
         <div className="flex items-center gap-6">
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/ertugrulbayraktar0/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-text-secondary hover:text-accent-gold transition-colors"
@@ -49,7 +49,7 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ertugrulbayraktr"
             target="_blank"
             rel="noopener noreferrer"
             className="text-text-secondary hover:text-accent-gold transition-colors"
@@ -60,7 +60,7 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:ertugrulbayraktar.bau@gmail.com"
             className="text-text-secondary hover:text-accent-gold transition-colors"
             aria-label="Email"
           >
@@ -69,7 +69,7 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="https://medium.com/@yourusername"
+            href="https://medium.com/@ertugrulbayraktr"
             target="_blank"
             rel="noopener noreferrer"
             className="text-text-secondary hover:text-accent-gold transition-colors"

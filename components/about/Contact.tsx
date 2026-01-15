@@ -8,23 +8,23 @@ export default function Contact() {
   const contactLinks = [
     {
       label: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com',
+      value: 'ertugrulbayraktar.bau@gmail.com',
+      href: 'mailto:ertugrulbayraktar.bau@gmail.com',
     },
     {
       label: 'GitHub',
-      value: 'github.com/yourusername',
-      href: 'https://github.com/yourusername',
+      value: 'github.com/ertugrulbayraktr',
+      href: 'https://github.com/ertugrulbayraktr',
     },
     {
       label: 'LinkedIn',
-      value: 'linkedin.com/in/yourusername',
-      href: 'https://linkedin.com/in/yourusername',
+      value: 'linkedin.com/in/ertugrulbayraktar0',
+      href: 'https://www.linkedin.com/in/ertugrulbayraktar0/',
     },
     {
       label: 'Medium',
-      value: 'medium.com/@yourusername',
-      href: 'https://medium.com/@yourusername',
+      value: 'medium.com/@ertugrulbayraktr',
+      href: 'https://medium.com/@ertugrulbayraktr',
     },
   ];
 
