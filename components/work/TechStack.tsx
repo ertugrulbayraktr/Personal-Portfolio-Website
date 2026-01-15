@@ -7,6 +7,7 @@ export default function TechStack() {
 
   const stack = {
     'Backend': ['C#', '.NET Core', 'Python', 'Django', 'FastAPI', 'Node.js'],
+    'Frontend': ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'React Native'],
     'Databases': ['PostgreSQL', 'MongoDB', 'Redis', 'SQL Server'],
     'Cloud & DevOps': ['Docker', 'Kubernetes', 'AWS', 'Azure', 'CI/CD'],
     'Tools & Others': ['Git', 'Linux', 'REST API', 'GraphQL', 'Message Queues'],

@@ -7,28 +7,28 @@
   },
   "home": {
     "hero": {
-      "title": "Building reliable backend systems.",
-      "subtitle": "I build .NET backend systems and AI-integrated products with a focus on reliability and scalability. My experience includes designing backend services and APIs, making architectural decisions, and developing systems intended for long-term use in production environments.\n\nI previously worked as a Software Engineering Intern at SunExpress Airlines (a joint venture of Lufthansa and Turkish Airlines) within the Business Airline Solutions team, contributing to enterprise-scale internal applications.",
+      "title": "Software Engineer specializing in .NET backend systems.",
+      "subtitle": "I build .NET backend systems and AI-integrated products, focusing on designing backend services and APIs for production environments. My work involves contributing to architectural decisions and developing systems with an emphasis on reliability, scalability, and long-term maintainability.\n\nI previously worked as a Software Engineering Intern at SunExpress Airlines (a joint venture of Lufthansa and Turkish Airlines), contributing to enterprise-scale internal applications within the Business Airline Solutions team.",
       "cta_primary": "View Work",
       "cta_secondary": "Read Writing"
     },
     "beyond_engineering": {
       "title": "Beyond Engineering",
-      "subtitle": "While engineering is my core discipline, my approach to building systems has been shaped by experience beyond code.",
+      "subtitle": "While engineering is my primary area of expertise, my professional perspective has been shaped over the years by experience beyond software development. My background in financial markets, entrepreneurship, and professional sports has directly influenced how I approach risk, responsibility, and discipline, and has informed the way I make decisions in my engineering work.",
       "markets": {
         "title": "Financial Markets & Trading",
-        "description": "My engagement with financial markets has shaped how I think about risk, uncertainty, and decision-making. Working with probabilistic models and real-time market dynamics reinforced the importance of discipline, controlled risk, and making decisions with incomplete information.",
-        "impact": "These concepts naturally translate into system design and engineering trade-offs."
+        "description": "I have been actively trading in forex markets, cryptocurrencies, and equities for over six years. My approach is primarily based on price action and smart money concepts.\nThis experience has strengthened my ability to make decisions under uncertainty, manage risk, and think systematically.",
+        "impact": "The perspective I developed in financial markets directly influences how I evaluate probabilities, risks, and long-term implications in engineering projects."
       },
       "entrepreneurship": {
         "title": "Entrepreneurship",
-        "description": "Through building and running my own venture, I gained firsthand experience in ownership, execution, and end-to-end responsibility. From defining problems to delivering working solutions, this experience strengthened my ability to prioritize, adapt, and take accountability.",
-        "impact": "Skills that directly influence how I approach software projects."
+        "description": "During my university years, I founded my first venture, an e-commerce initiative called LLUX. This experience provided an end-to-end perspective, from planning and execution to problem-solving and taking full ownership of outcomes.",
+        "impact": "The entrepreneurial process strengthened my approach to ownership, prioritization, and results-driven execution in software engineering projects."
       },
       "athlete": {
-        "title": "Athlete",
-        "description": "A competitive sports background instilled discipline, consistency, and long-term focus. Training under pressure and committing to continuous improvement developed habits around resilience and execution.",
-        "impact": "Qualities that carry over into engineering work, especially in demanding and high-responsibility environments."
+        "title": "Athletic Background",
+        "description": "I competed for many years as a licensed professional kickboxer. This experience played a significant role in developing discipline, consistency, and the ability to perform under pressure.",
+        "impact": "These habits continue to support my approach to complex engineering projects, particularly in maintaining long-term stability, accountability, and sustainable performance."
       }
     },
     "featured_work": {
@@ -42,11 +42,12 @@
     },
     "cta_section": {
       "title": "Currently exploring opportunities in backend engineering and AI-integrated systems.",
-      "button": "View Full Experience"
+      "button": "View Full Experience",
+      "download_cv": "Download CV"
     }
   },
   "work": {
-    "title": "Work",
+    "title": "Career Goals",
     "philosophy_title": "How I Work",
     "philosophy": {
       "ownership": {
@@ -63,11 +64,34 @@
       }
     },
     "experience_title": "Experience",
+    "experiences": {
+      "sunexpress": {
+        "title": "Software Engineering Intern",
+        "company": "SunExpress Airlines",
+        "subtitle": "Joint venture of Lufthansa and Turkish Airlines",
+        "period": "August 2025 – October 2025",
+        "description": "I worked within the Business Airline Solutions team on the development of product-oriented, internal systems. During this period, I contributed to backend-focused development activities for enterprise-scale applications used across the organization.\n\nAs part of my role, I developed backend services and APIs using .NET Web API, and worked on database design and data access processes with MSSQL. I also contributed to integrations with internal and external systems, supporting backend workflows involving asynchronous processing and messaging.\n\nI actively participated in sprint-based development processes conducted under Agile/Scrum methodologies, taking part in planning, development, and delivery phases. Throughout the development lifecycle, I worked with technologies including .NET Web API, React, React Native, and MSSQL, and used Azure DevOps for version control, task tracking, and team collaboration."
+      },
+      "llux": {
+        "title": "Founder",
+        "company": "LLUX",
+        "subtitle": "E-commerce Initiative",
+        "period": "September 2023 – October 2024",
+        "description": "LLUX is an e-commerce venture that I founded and managed independently during my university years. I operated in the small home appliances category, running sales through both my own e-commerce platform and online marketplaces.\n\nThroughout this period, I took full responsibility for the venture, covering areas ranging from product selection and positioning to supplier relationships, operational management, and coordination of sales channels. I was actively involved in planning daily operations, overseeing order processes, and managing the overall customer experience."
+      },
+      "bahcesehir": {
+        "title": "Technical Analyst & Editor",
+        "company": "Bahçeşehir University Financial Research Center (BFRC)",
+        "subtitle": "Financial Research Center",
+        "period": "September 2021 – June 2023",
+        "description": "I worked as a Technical Analyst and Editor at the Bahçeşehir University Financial Research Center (BFRC), contributing to the preparation of a weekly financial bulletin published on a regular basis. The bulletin covered a wide range of topics, including the U.S. and global economy, Turkish markets, commodities, cryptocurrencies, and various macroeconomic subjects, along with technical analyses.\n\nIn my role as a Technical Analyst, I conducted market analyses across forex, cryptocurrency, and equity markets. I primarily applied price action and smart money concepts approaches, producing technical analyses, charts, and market commentaries, and contributing regularly to the published bulletin.\n\nAs an Editor, I was responsible for the pre-publication review and refinement of content. This included ensuring clarity, consistency, and quality of analyses, maintaining writing standards, and supporting the management of the weekly publication schedule. The content produced within BFRC was published regularly and made accessible both within and outside the university."
+      }
+    },
     "projects_title": "Projects",
     "view_details": "View Details",
     "tech_stack_title": "Tech Capabilities",
     "career_direction_title": "Career Direction",
-    "career_direction_text": "As I move forward in my career, my primary goal is to deepen my expertise in backend engineering. I aim to continue developing scalable, high-performance systems using .NET, cloud-native architectures, distributed systems, and modern DevOps practices. Becoming highly proficient in designing reliable APIs and robust system infrastructures is a key part of this path.\n\nAt the same time, I am actively expanding my knowledge in artificial intelligence and machine learning. My medium-term goal is to integrate AI-driven approaches into backend development — creating smarter, data-enhanced systems and contributing to products that benefit from automation, prediction, and intelligent decision-making.\n\nIn the long term, I aspire to specialize in industries where technology meets high-impact engineering: aviation, space, and defense. These fields demand precision, reliability, and innovation — values that align closely with my personal motivations and technical interests. My vision is to contribute to mission-critical systems and advanced technological solutions within these sectors, combining backend engineering, AI capabilities, and a strong drive for continuous improvement.",
+    "career_direction_text": "I aim to advance my career by combining my backend-focused full-stack development expertise with systems integrated with artificial intelligence, machine learning, and deep learning. I am currently developing backend systems using .NET Web API, Django, and FastAPI, while also building end-to-end full-stack projects and AI-integrated applications with React.\n\nIn the short to mid term, my goal is to work within teams that develop reliable and scalable software systems operating in production environments, and to specialize in domains that require high levels of reliability and engineering discipline, such as aviation, aerospace, and defense. Throughout this process, I prioritize deepening my technical expertise in the proper integration of AI-enabled systems into software architectures.",
     "filter_all": "All",
     "filter_backend": "Backend",
     "filter_fullstack": "Full-stack",

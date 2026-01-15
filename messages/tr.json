@@ -7,28 +7,28 @@
   },
   "home": {
     "hero": {
-      "title": "Güvenilir backend sistemler geliştiriyorum.",
-      "subtitle": "Güvenilirlik ve ölçeklenebilirlik odaklı .NET backend sistemleri ve yapay zeka entegrasyonlu ürünler geliştiriyorum. Deneyimim backend servisleri ve API'leri tasarlamayı, mimari kararlar almayı ve production ortamlarında uzun vadeli kullanım için tasarlanmış sistemler geliştirmeyi içeriyor.\n\nDaha önce SunExpress Havayolları'nda (Lufthansa ve Türk Hava Yolları ortak girişimi) Business Airline Solutions ekibinde Yazılım Mühendisliği Stajyeri olarak kurumsal ölçekli dahili uygulamalara katkıda bulundum.",
+      "title": ".NET backend sistemleri üzerine uzmanlaşmış Yazılım Mühendisi",
+      "subtitle": ".NET backend sistemleri ve yapay zekâ entegreli ürünler geliştiriyorum; üretim ortamları için backend servisleri ve API'ler tasarlamaya odaklanıyorum.\nÇalışmalarım; mimari kararlara katkı sağlamayı, güvenilirlik, ölçeklenebilirlik ve uzun vadeli sürdürülebilirlik önceliğiyle sistemler geliştirmeyi kapsıyor.\n\nLufthansa ve Türk Hava Yolları ortak girişimi olan SunExpress Havayolları'nda, Business Airline Solutions ekibi bünyesinde Yazılım Mühendisliği Stajyeri olarak görev aldım; kurumsal ölçekte dahili uygulamaların geliştirilmesine katkı sağladım.",
       "cta_primary": "İşleri Gör",
       "cta_secondary": "Yazıları Oku"
     },
     "beyond_engineering": {
-      "title": "Mühendisliğin Ötesinde",
-      "subtitle": "Mühendislik temel disiplinim olsa da, sistem kurma yaklaşımım kod dışındaki deneyimler tarafından şekillendirildi.",
+      "title": "Beyond Engineering",
+      "subtitle": "Mühendislik ana uzmanlık alanım olsa da, profesyonel bakış açım yıllar içinde yazılımın ötesinde edindiğim deneyimlerle şekillendi. Finansal piyasalar, girişimcilik ve profesyonel spor geçmişim; risk, sorumluluk ve disiplin kavramlarına yaklaşımımı doğrudan etkiledi ve mühendislik çalışmalarımda karar alma biçimime yön verdi.",
       "markets": {
-        "title": "Finansal Piyasalar ve Trading",
-        "description": "Finansal piyasalara olan ilgim risk, belirsizlik ve karar verme konusundaki düşünce yapımı şekillendirdi. Olasılıksal modeller ve gerçek zamanlı piyasa dinamikleriyle çalışmak disiplin, kontrollü risk ve eksik bilgiyle karar verme önemini pekiştirdi.",
-        "impact": "Bu kavramlar doğal olarak sistem tasarımı ve mühendislik değiş-tokuşlarına dönüşüyor."
+        "title": "Finansal Piyasalar & Trading",
+        "description": "Altı yılı aşkın süredir forex piyasaları, kriptoparalar ve hisse senetleri üzerine aktif olarak trade yapıyorum. Çalışmalarımda ağırlıklı olarak price action ve smart money concepts yaklaşımlarını kullanıyorum.\nBu süreç, belirsizlik altında karar verme, risk yönetimi ve sistematik düşünme konularında güçlü bir bakış açısı kazanmamı sağladı.",
+        "impact": "Finansal piyasalarda edindiğim bu deneyim, mühendislik projelerinde de olasılıkları, riskleri ve uzun vadeli etkileri değerlendirme biçimimi doğrudan etkiliyor."
       },
       "entrepreneurship": {
         "title": "Girişimcilik",
-        "description": "Kendi girişimimi kurma ve yürütme sürecinde sahiplenme, uygulama ve uçtan uca sorumluluk konusunda ilk elden deneyim kazandım. Problemleri tanımlamaktan çalışan çözümler sunmaya kadar bu deneyim önceliklendirme, adaptasyon ve hesap verebilirlik yeteneklerimi güçlendirdi.",
-        "impact": "Yazılım projelerine nasıl yaklaştığımı doğrudan etkileyen beceriler."
+        "description": "Üniversite yıllarımda ilk girişimimi, LLUX adlı bir e-ticaret projesi ile hayata geçirdim. Bu deneyim; bir fikrin planlanmasından uygulanmasına, karşılaşılan problemlerin çözümünden sorumluluğun tamamen üstlenilmesine kadar uçtan uca bir perspektif kazanmamı sağladı.",
+        "impact": "Girişimcilik süreci, mühendislik çalışmalarımda sahiplik, önceliklendirme ve sonuç odaklılık konularına yaklaşımımı güçlendirdi."
       },
       "athlete": {
-        "title": "Sporcu",
-        "description": "Rekabetçi spor geçmişim disiplin, tutarlılık ve uzun vadeli odaklanma aşıladı. Baskı altında antrenman yapmak ve sürekli gelişime bağlı kalmak dayanıklılık ve uygulama etrafında alışkanlıklar geliştirdi.",
-        "impact": "Özellikle zorlu ve yüksek sorumluluk gerektiren ortamlarda mühendislik çalışmalarına taşınan özellikler."
+        "title": "Atletik Geçmiş",
+        "description": "Profesyonel lisanslı olarak kickboks sporu ile ilgilendim ve uzun yıllar bu alanda aktif olarak yer aldım. Bu süreç, disiplinli çalışma alışkanlığı, süreklilik ve baskı altında performans gösterebilme becerilerini kazanmamda önemli rol oynadı.",
+        "impact": "Edindiğim bu alışkanlıklar, karmaşık mühendislik projelerinde uzun vadeli istikrar ve sürdürülebilir performans yaklaşımımı destekliyor."
       }
     },
     "featured_work": {
@@ -42,11 +42,12 @@
     },
     "cta_section": {
       "title": "Backend mühendisliği ve yapay zeka entegrasyonlu sistemler alanında fırsatlar arıyorum.",
-      "button": "Tüm Deneyimi Gör"
+      "button": "Tüm Deneyimi Gör",
+      "download_cv": "CV İndir"
     }
   },
   "work": {
-    "title": "İş",
+    "title": "Kariyer Hedefleri",
     "philosophy_title": "Nasıl Çalışırım",
     "philosophy": {
       "ownership": {
@@ -63,11 +64,34 @@
       }
     },
     "experience_title": "Deneyim",
+    "experiences": {
+      "sunexpress": {
+        "title": "Software Engineering Intern",
+        "company": "SunExpress Airlines",
+        "subtitle": "Lufthansa ve Türk Hava Yolları ortak girişimi",
+        "period": "Ağustos 2025 – Ekim 2025",
+        "description": "Business Airline Solutions ekibi bünyesinde, ürün odaklı ve dahili (internal) sistemlerin geliştirilmesine yönelik çalışmalarda yer aldım. Bu süreçte, kurumsal ölçekte kullanılan uygulamalar için backend ağırlıklı geliştirme faaliyetlerine katkı sağladım.\n\nÇalışmalarım kapsamında .NET Web API kullanarak backend servisleri ve API'ler geliştirdim; MSSQL üzerinde veri tabanı tasarımı ve veri erişim süreçleriyle ilgilendim. Dahili ve harici sistemlerle entegrasyonlar üzerinde çalışarak, mesajlaşma ve asenkron işlemleri içeren backend akışlarının geliştirilmesine katkıda bulundum.\n\nAgile/Scrum metodolojisi ile yürütülen sprint süreçlerinde aktif rol alarak, ekip içi planlama, geliştirme ve teslim aşamalarında yer aldım. Geliştirme sürecinde .NET Web API, React, React Native ve MSSQL teknolojilerini kullanırken, Azure DevOps üzerinden versiyonlama, görev takibi ve ekip içi iş akışlarına dahil oldum."
+      },
+      "llux": {
+        "title": "Founder",
+        "company": "LLUX",
+        "subtitle": "E-ticaret Girişimi",
+        "period": "Eylül 2023 – Ekim 2024",
+        "description": "LLUX, üniversite yıllarımda tek başıma kurup yönettiğim bir e-ticaret girişimidir. Küçük ev aletleri kategorisinde, hem kendi e-ticaret platformum hem de çevrim içi pazaryerleri üzerinden satış faaliyetleri yürüttüm.\n\nBu süreçte, ürün seçimi ve konumlandırmasından tedarikçi ilişkilerine, operasyonel süreçlerin yönetiminden satış kanallarının koordinasyonuna kadar girişimin tüm sorumluluğunu üstlendim. Günlük operasyonların planlanması, sipariş süreçlerinin takibi ve müşteri deneyiminin yönetilmesi gibi alanlarda aktif rol aldım."
+      },
+      "bahcesehir": {
+        "title": "Technical Analyst & Editor",
+        "company": "Bahçeşehir University Financial Research Center (BFRC)",
+        "subtitle": "Finansal Araştırma Merkezi",
+        "period": "Eylül 2021 – Haziran 2023",
+        "description": "Bahçeşehir Üniversitesi bünyesinde faaliyet gösteren Financial Research Center (BFRC) kapsamında, haftalık olarak yayımlanan finansal bültenin hazırlanmasında Teknik Analist ve Editör olarak görev aldım. Bu bülten; ABD ve dünya ekonomisi, Türkiye piyasaları, emtia piyasaları, kriptoparalar ve çeşitli makroekonomik konulara yönelik analiz ve değerlendirmeler içermektedir.\n\nTeknik Analist rolüm kapsamında; forex, kriptopara ve hisse senedi piyasalarına yönelik piyasa analizleri gerçekleştirdim. Ağırlıklı olarak price action ve smart money concepts yaklaşımlarını kullanarak teknik analizler ürettim, grafikler hazırladım ve düzenli olarak bültene analiz ve piyasa yorumları ile katkı sağladım.\n\nEditörlük rolümde ise, yayımlanacak içeriklerin yayın öncesi kontrol ve düzenleme süreçlerinden sorumlu oldum. Analizlerin içerik kalitesi, yazım dili ve tutarlılığını gözden geçirerek yayın standartlarına uygunluğunu sağladım ve haftalık yayın takviminin yönetimine katkı sundum. BFRC bünyesinde üretilen içerikler, üniversite içinde ve dışında erişilebilir şekilde düzenli olarak yayımlandı."
+      }
+    },
     "projects_title": "Projeler",
     "view_details": "Detayları Gör",
     "tech_stack_title": "Teknik Yetenekler",
     "career_direction_title": "Kariyer Hedefleri",
-    "career_direction_text": "Kariyerimde ilerlerken birincil hedefim backend mühendisliği alanındaki uzmanlığımı derinleştirmek. .NET, cloud-native mimariler, dağıtık sistemler ve modern DevOps pratikleri kullanarak ölçeklenebilir, yüksek performanslı sistemler geliştirmeye devam etmeyi amaçlıyorum. Güvenilir API'ler ve sağlam sistem altyapıları tasarlamada oldukça yetkin olmak bu yolun önemli bir parçası.\n\nAynı zamanda yapay zeka ve makine öğrenmesi alanındaki bilgimi aktif olarak genişletiyorum. Orta vadeli hedefim, AI-odaklı yaklaşımları backend geliştirmeye entegre etmek — daha akıllı, veri zenginleştirilmiş sistemler oluşturmak ve otomasyondan, tahmin yeteneğinden ve akıllı karar vermeden faydalanan ürünlere katkıda bulunmak.\n\nUzun vadede, teknolojinin yüksek etkili mühendislikle buluştuğu sektörlerde uzmanlaşmayı hedefliyorum: havacılık, uzay ve savunma. Bu alanlar hassasiyet, güvenilirlik ve yenilikçilik gerektirir — kişisel motivasyonlarım ve teknik ilgi alanlarımla yakından örtüşen değerler. Vizyonum, bu sektörlerde görev kritik sistemlere ve gelişmiş teknolojik çözümlere katkıda bulunmak; backend mühendisliği, AI yetenekleri ve güçlü bir sürekli gelişim arzusunu birleştirmek.",
+    "career_direction_text": "Kariyerimde, backend ağırlıklı full-stack yazılım geliştirme yetkinliğimi; yapay zekâ, makine öğrenmesi ve derin öğrenme tabanlı sistemlerle entegre ederek ilerletmeyi hedefliyorum. Hâlihazırda .NET Web API, Django ve FastAPI ile backend sistemler geliştirirken, React ile uçtan uca full-stack projeler ve yapay zekâ entegreli uygulamalar üzerinde çalışıyorum. Kısa ve orta vadede amacım; üretim ortamlarında çalışan, güvenilir ve ölçeklenebilir yazılım sistemleri geliştiren ekiplerde yer almak ve özellikle havacılık, uzay ve savunma sanayii gibi yüksek güvenilirlik ve mühendislik disiplini gerektiren alanlarda uzmanlaşmak. Bu süreçte, yapay zekâ destekli sistemlerin yazılım mimarilerine doğru şekilde entegre edilmesi üzerine teknik derinliğimi artırmayı önceliklendiriyorum.",
     "filter_all": "Tümü",
     "filter_backend": "Backend",
     "filter_fullstack": "Full-stack",

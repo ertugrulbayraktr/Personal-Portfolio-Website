@@ -4,47 +4,20 @@ import { useTranslations } from 'next-intl';
 
 export default function Experience() {
   const t = useTranslations('work');
+  const tExp = useTranslations('work.experiences');
 
-  // Placeholder experiences
   const experiences = [
     {
-      id: 1,
-      title: 'Software Engineering Intern',
-      company: 'SunExpress',
+      id: 'sunexpress',
       logo: '/images/companies/sunexpress.png',
-      description: 'Lufthansa and Turkish Airlines joint venture',
-      period: '3 months',
-      highlights: [
-        'Worked on backend systems for airline operations',
-        'Collaborated with international development teams',
-        'Gained experience in enterprise-scale applications',
-      ],
     },
     {
-      id: 2,
-      title: 'Founder',
-      company: 'LLux',
+      id: 'llux',
       logo: '/images/companies/llux.png',
-      description: 'E-commerce business launched during university',
-      period: '1 year',
-      highlights: [
-        'Led product development and technical architecture',
-        'Managed cross-functional team operations',
-        'Learned entrepreneurship and business strategy',
-      ],
     },
     {
-      id: 3,
-      title: 'Technical Analyst & Editor',
-      company: 'Bahçeşehir University',
+      id: 'bahcesehir',
       logo: '/images/companies/bahcesehir.png',
-      description: 'Financial Research Office - Bulletin editorial and analysis',
-      period: 'During university',
-      highlights: [
-        'Conducted technical analysis on financial markets',
-        'Wrote and edited financial research bulletins',
-        'Applied analytical thinking to market trends',
-      ],
     },
   ];
 
@@ -71,7 +44,7 @@ export default function Experience() {
                 {exp.logo ? (
                   <img
                     src={exp.logo}
-                    alt={`${exp.company} logo`}
+                    alt={`${tExp(`${exp.id}.company`)} logo`}
                     className="w-full h-full object-contain"
                   />
                 ) : (
@@ -83,26 +56,21 @@ export default function Experience() {
             {/* Content */}
             <div className="flex-1 pb-4">
               <h3 className="text-xl font-semibold text-text-primary mb-1">
-                {exp.title}
+                {tExp(`${exp.id}.title`)}
               </h3>
               <div className="text-accent-gold font-medium mb-1">
-                {exp.company}
+                {tExp(`${exp.id}.company`)}
               </div>
-              <div className="text-sm text-text-secondary mb-4">
-                {exp.description} • {exp.period}
+              <div className="text-sm text-text-secondary mb-2">
+                {tExp(`${exp.id}.subtitle`)}
+              </div>
+              <div className="text-xs text-text-secondary mb-4">
+                {tExp(`${exp.id}.period`)}
               </div>
               
-              <ul className="space-y-2">
-                {exp.highlights.map((highlight, idx) => (
-                  <li
-                    key={idx}
-                    className="text-text-secondary text-sm flex items-start"
-                  >
-                    <span className="text-accent-gold mr-2">▸</span>
-                    <span>{highlight}</span>
-                  </li>
-                ))}
-              </ul>
+              <div className="text-text-secondary text-sm leading-relaxed whitespace-pre-line">
+                {tExp(`${exp.id}.description`)}
+              </div>
             </div>
           </div>
         ))}

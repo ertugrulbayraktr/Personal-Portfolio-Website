@@ -110,12 +110,14 @@ export default async function BlogPostPage({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const post = await getPost(slug);
 
   if (!post) {
     notFound();
   }
+
+  const backText = locale === 'tr' ? 'Yazılara Dön' : 'Back to Writing';
 
   return (
     <div className="w-full">
@@ -138,7 +140,7 @@ export default async function BlogPostPage({
               d="M15 19l-7-7 7-7"
             />
           </svg>
-          Back to Writing
+          {backText}
         </Link>
 
         {/* Meta */}
@@ -162,70 +164,13 @@ export default async function BlogPostPage({
         </h1>
 
         {/* Content */}
-        <div className="prose prose-invert prose-lg max-w-none">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:text-text-primary prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-p:text-text-secondary prose-p:leading-relaxed prose-code:bg-surface prose-code:text-accent-gold prose-code:px-2 prose-code:py-1 prose-code:rounded prose-pre:bg-surface prose-strong:text-text-primary">
           <div
             className="text-text-secondary leading-relaxed"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
         </div>
       </article>
-
-      {/* Custom Prose Styles */}
-      <style jsx global>{`
-        .prose h1,
-        .prose h2,
-        .prose h3 {
-          color: var(--text-primary);
-          font-weight: 700;
-          margin-top: 2em;
-          margin-bottom: 1em;
-        }
-        .prose h1 {
-          font-size: 2.25rem;
-        }
-        .prose h2 {
-          font-size: 1.875rem;
-        }
-        .prose h3 {
-          font-size: 1.5rem;
-        }
-        .prose p {
-          margin-bottom: 1.5em;
-          line-height: 1.8;
-        }
-        .prose ul,
-        .prose ol {
-          margin-top: 1em;
-          margin-bottom: 1em;
-          padding-left: 1.5em;
-        }
-        .prose li {
-          margin-bottom: 0.5em;
-        }
-        .prose code {
-          background-color: var(--surface);
-          padding: 0.2em 0.4em;
-          border-radius: 0.25rem;
-          font-size: 0.875em;
-          color: var(--accent-gold);
-        }
-        .prose pre {
-          background-color: var(--surface);
-          padding: 1.5em;
-          border-radius: 0.5rem;
-          overflow-x: auto;
-          margin: 1.5em 0;
-        }
-        .prose pre code {
-          background-color: transparent;
-          padding: 0;
-          color: var(--text-primary);
-        }
-        .prose strong {
-          color: var(--text-primary);
-          font-weight: 600;
-        }
-      `}</style>
     </div>
   );
 }

@@ -34,13 +34,13 @@ export default function BeyondEngineering() {
   ];
 
   return (
-    <section className="max-w-content mx-auto px-6 py-32 border-t border-surface">
+    <section className="max-w-content mx-auto px-6 py-16 border-t border-surface">
       {/* Section Header - Centered */}
       <div className="mb-16 text-center">
         <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-text-primary">
           {t('title')}
         </h2>
-        <p className="text-xl text-text-secondary leading-loose max-w-3xl mx-auto">
+        <p className="text-xl text-text-secondary leading-loose max-w-4xl mx-auto">
           {t('subtitle')}
         </p>
       </div>
