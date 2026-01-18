@@ -30,7 +30,7 @@ export default function Projects() {
     skinLesion: {
       id: 1,
       slug: 'skin-lesion-classification',
-      title: 'Enhancing Skin Lesion Classification Web Application with GAN-Based Augmentation and Deep Learning',
+      title: 'Enhanced Skin Lesion Classification Web Application with GAN-Based Augmentation and Deep Learning',
       description: 'Full-stack dermoscopy classification using Enhanced SE-ResNet and ACGAN-based augmentation (5 classes, 97.23% accuracy).',
       tech: ['FastAPI', 'PyTorch', 'React', 'Vite', 'OpenCV', 'ACGAN'],
       highlights: [
@@ -120,7 +120,7 @@ export default function Projects() {
       'Sürükle-bırak destekli etkileşimli Kanban panosu',
       'Gerçek zamanlı bildirimler ve AJAX tabanlı kullanıcı deneyimi'
     ],
-    github: '#',
+    github: 'https://github.com/ertugrulbayraktr/cs50w-finalproject-TaskMaster',
     demo: null,
     image: '/images/projects/taskmaster.png',
     imagePosition: 'center',
@@ -135,7 +135,7 @@ export default function Projects() {
       'Interactive Kanban board with drag-and-drop workflow',
       'Real-time notifications and AJAX-powered user experience'
     ],
-    github: '#',
+    github: 'https://github.com/ertugrulbayraktr/cs50w-finalproject-TaskMaster',
     demo: null,
     image: '/images/projects/taskmaster.png',
     imagePosition: 'center',

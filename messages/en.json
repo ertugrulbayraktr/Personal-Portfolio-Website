@@ -8,7 +8,7 @@
   "home": {
     "hero": {
       "title": "Software Engineer specializing in .NET backend systems.",
-      "subtitle": "I build .NET backend systems and AI-integrated products, focusing on designing backend services and APIs for production environments. My work involves contributing to architectural decisions and developing systems with an emphasis on reliability, scalability, and long-term maintainability.\n\nI previously worked as a Software Engineering Intern at SunExpress Airlines (a joint venture of Lufthansa and Turkish Airlines), contributing to enterprise-scale internal applications within the Business Airline Solutions team.",
+      "subtitle": "I build scalable web applications and APIs using ASP.NET Core and React, with a strong focus on clean and maintainable system design. I have experience working across backend and frontend layers, including Python-based services with Django and FastAPI. Currently, I am expanding my skills in AI and AI-integrated application development to complement modern backend systems.\n\nI previously worked as a Software Engineering Intern at SunExpress Airlines (a joint venture of Lufthansa and Turkish Airlines), contributing to enterprise-scale internal applications within the Business Airline Solutions team.",
       "cta_primary": "View Work",
       "cta_secondary": "Read Writing"
     },

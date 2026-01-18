@@ -25,7 +25,7 @@ interface Project {
 function getProject(slug: string, locale: string): Project | null {
   const projectsEn: Record<string, Project> = {
     'skin-lesion-classification': {
-      title: 'Enhancing Skin Lesion Classification Web Application with GAN-Based Augmentation and Deep Learning',
+      title: 'Enhanced Skin Lesion Classification Web Application with GAN-Based Augmentation and Deep Learning',
       description: 'Full-stack dermoscopy classification using Enhanced SE-ResNet and ACGAN-based augmentation (5 classes, 97.23% accuracy).',
       overview: 'An intelligent full-stack web application for classifying dermoscopy images into 5 skin lesion categories. The system combines an Enhanced SE-ResNet architecture with ACGAN-based data augmentation to address class imbalance and achieves 97.23% accuracy on the HAM10000 dataset.',
       problem: 'Skin lesion datasets suffer from severe class imbalance and image artifacts (e.g. hair), which significantly reduce model performance—especially for critical minority classes such as melanoma.',

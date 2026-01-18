@@ -1,14 +1,14 @@
 {
   "nav": {
     "home": "Ana Sayfa",
-    "work": "İş",
+    "work": "Kariyer",
     "writing": "Yazılar",
     "about": "Hakkımda"
   },
   "home": {
     "hero": {
       "title": ".NET backend sistemleri üzerine uzmanlaşmış Yazılım Mühendisi",
-      "subtitle": ".NET backend sistemleri ve yapay zekâ entegreli ürünler geliştiriyorum; üretim ortamları için backend servisleri ve API'ler tasarlamaya odaklanıyorum.\nÇalışmalarım; mimari kararlara katkı sağlamayı, güvenilirlik, ölçeklenebilirlik ve uzun vadeli sürdürülebilirlik önceliğiyle sistemler geliştirmeyi kapsıyor.\n\nLufthansa ve Türk Hava Yolları ortak girişimi olan SunExpress Havayolları'nda, Business Airline Solutions ekibi bünyesinde Yazılım Mühendisliği Stajyeri olarak görev aldım; kurumsal ölçekte dahili uygulamaların geliştirilmesine katkı sağladım.",
+      "subtitle": "ASP.NET Core ve React kullanarak ölçeklenebilir web uygulamaları ve API'ler geliştiriyorum; temiz ve sürdürülebilir sistem tasarımına güçlü bir şekilde odaklanıyorum. Backend ve frontend katmanlarında çalışma deneyimine sahibim; Python tabanlı servislerde Django ve FastAPI ile de çalıştım. Modern backend sistemlerini tamamlayacak şekilde yapay zeka ve AI entegreli uygulama geliştirme alanlarında kendimi geliştirmeye devam ediyorum.\n\nLufthansa ve Türk Hava Yolları ortak girişimi olan SunExpress Havayolları'nda, Business Airline Solutions ekibi bünyesinde Yazılım Mühendisliği Stajyeri olarak görev aldım; kurumsal ölçekte dahili uygulamaların geliştirilmesine katkı sağladım.",
       "cta_primary": "İşleri Gör",
       "cta_secondary": "Yazıları Oku"
     },

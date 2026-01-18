@@ -23,7 +23,7 @@ export default function FeaturedWork() {
   } : {
     skinLesion: {
       id: 1,
-      title: 'Enhancing Skin Lesion Classification Web Application with GAN-Based Augmentation and Deep Learning',
+      title: 'Enhanced Skin Lesion Classification Web Application with GAN-Based Augmentation and Deep Learning',
       problem: 'Accurate skin lesion classification with limited and imbalanced medical imaging data',
       approach: 'Developed full-stack application using Enhanced SE-ResNet with ACGAN-based augmentation for minority classes, achieving 97.23% accuracy',
       tags: ['FastAPI', 'PyTorch', 'React', 'ACGAN'],
